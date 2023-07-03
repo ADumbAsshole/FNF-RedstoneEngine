@@ -288,13 +288,13 @@ class TitleState extends MusicBeatState
 			#if TITLE_SCREEN_EASTER_EGG
 			case 'HIM':
 				gfDance.frames = Paths.getSparrowAtlas('dancin');
-				gfDance.animation.addByPrefix('danceLeft', 'DANCE FUCKER DANCE', 34);
-				gfDance.animation.addByPrefix('danceRight', 'DANCE FUCKER DANCE', 34);
+				gfDance.animation.addByPrefix('danceLeft', 'DANCE FUCKER DANCE', 24, false);
+				gfDance.animation.addByPrefix('danceRight', 'DANCE FUCKER DANCE', 24, false);
 
 			case 'REDSTONESC':
 				gfDance.frames = Paths.getSparrowAtlas('RedstoneSC');
-				gfDance.animation.addByPrefix('danceLeft', 'RedstoneSC dance', 34);
-				gfDance.animation.addByPrefix('danceRight', 'RedstoneSC dance', 34);
+				gfDance.animation.addByPrefix('danceLeft', 'RedstoneSC dance', 24, false);
+				gfDance.animation.addByPrefix('danceRight', 'RedstoneSC dance', 24, false);
 			#end
 
 			default:
